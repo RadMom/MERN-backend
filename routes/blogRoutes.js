@@ -14,7 +14,7 @@ const {
 router.get("/", getAllBlogs);
 router.get("/:id", getOneBlog);
 router.post("/create", createBlog);
-// router.put("/:id");    Must check how to update only what I want. 
+// router.put("/:id");    Must check how to update only what I want.
 router.delete("/:id", deleteBlog);
 
 //We must export our router
