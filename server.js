@@ -29,4 +29,5 @@ mongoose
     console.log(`Some ERROR - ${err}`);
   });
 
-app.use("/api", blogRoutes);
+app.use("/api/blogs", blogRoutes);
+app.use("/api/users")

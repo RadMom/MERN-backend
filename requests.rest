@@ -1,0 +1,12 @@
+# GET http://localhost:5000/api HTTP/1.1
+# DELETE http://localhost:5000/api/ HTTP/1.1
+POST http://localhost:5000/api/create HTTP/1.1
+content-type: application/json
+
+{
+   "blog":{
+        "title": " The Blog",
+        "author": "Pepitoooo ",
+        "body": "Let's have some fun !!!"
+   }
+}

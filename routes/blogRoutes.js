@@ -2,7 +2,7 @@
 const express = require("express");
 const router = express.Router();
 
-//We import all controllers here and use them where we need them
+//We import all controllers here and use them where we need 
 const {
   getAllBlogs,
   getOneBlog,
